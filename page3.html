@@ -14,8 +14,23 @@
         </div>
         <div class="col>
             <form>
-            </form>    
-        </div>
+		<label for="IDname">Name</label>
+		<input type="text" id="IDname">
+		<label for="IDemail">Email</label>
+		<input type="text" id="IDemail">
+		<label for="IDfeedback">Feedback</label>
+		<input type="textarea" id="IDfeedback" placeholder="...">
+		<button type="button" class="btn btn-success" onclick="subFeed()"></button>
+            </form>
+	</div>
+		<script>
+			function subFeed() {
+				window.alert("Recorded. We'll get back to you via email.")
+			}
+		</script>
     </div>
+    <hr>
+    <h1>More Help</h1>
+
 </body>
 </html>
