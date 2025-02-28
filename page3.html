@@ -19,12 +19,12 @@
     <h1>Tell Us Your Thoughts</h1>
     <div class="row">
         <div class="col">
-            <h3>Need help with anything? Please leave oyur comments in the feedback form, along with your information so that we can get back to you.</h3>
+            <h3>Need help with anything? Please leave your comments in the feedback form, along with your information so that we can get back to you.</h3>
         </div>
-        <div class="col>
+        <div class="col">
             <form>
 		<label for="IDname">Name</label>
-		<input type="text" id="IDname" class="form-control">
+		<input type="text" id="IDname" class="form-control" onkeydown="">
 		<label for="IDemail">Email</label>
 		<input type="email" id="IDemail" class="form-control">
 		<label for="IDfeedback">Feedback</label>
@@ -33,6 +33,13 @@
             </form>
 	</div>
 		<script>
+			document.getElementById('IDname').onchange = function() {namechange()};
+
+			function namechange() {
+				var fname = document.getElementById('IDname');
+				fname.value = fname.value.toUpperCase();
+			}
+			
 			function subFeed() {
 				window.alert("Recorded. We'll get back to you via email.");
 			}
