@@ -7,4 +7,6 @@ body{
 
 .trainsched{
   padding: 10%; 
+  text-align: center; 
+  justify-content: center;
 } 
