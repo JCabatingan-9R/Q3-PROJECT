@@ -20,12 +20,24 @@
 		<input type="email" id="IDemail" class="form-control">
 		<label for="IDfeedback">Feedback</label>
 		<input type="textarea" id="IDfeedback" placeholder="..." rows="30" cols="40">
-		<button type="button" class="btn btn-success" onclick="subFeed()">Submit Feedback</button>
+		<button type="button" class="btn btn-success" onclick="subFeed()" onmouseover="subFeed2()" onmouseout="subFeed3()" id="subF">Submit Feedback</button>
             </form>
 	</div>
 		<script>
 			function subFeed() {
 				window.alert("Recorded. We'll get back to you via email.");
+			}
+			
+			const document.getElementById('subF');
+			
+			function subFeed2() {
+				subF.style.background = "white";
+				subF.style.color = "green";
+			}
+
+			function subFeed3() {
+				subF.style.background = "green";
+				subF.style.color = "white";
 			}
 		</script>
     </div>
