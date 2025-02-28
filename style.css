@@ -14,5 +14,9 @@ body{
 } 
 
 .logo {
-  width: 40px;
+  width: 20px;
+}
+
+nav {
+  padding: 20px;
 }
