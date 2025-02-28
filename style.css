@@ -3,7 +3,8 @@
 
 body{
   text-align: center; 
-  background-color: white;
+  background-color: whitesmoke;
+  color: brown;
 }
 
 .trainsched{
@@ -11,3 +12,4 @@ body{
   text-align: center; 
   justify-content: center;
 } 
+
