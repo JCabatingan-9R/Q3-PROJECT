@@ -3,17 +3,22 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Train Fair Guide</title>
 
-	<!--B5 SETUP-->
+	<!-- SETUP BOOTSTAP: link to Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-	<!-- JS SETUP -->
+	<!-- link to JS -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-	<!-- CSS SETUP -->
+	<script type="text/javascript" src="main.js"></script>
+
+	<!-- Add style -->
 	<link rel="stylesheet" type="text/css" href="style.css">
-	
-	<title>Train Fare Guide</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 	<nav class="nav nav-bar-expand-md bg-success">
@@ -47,7 +52,58 @@
 	      			<button class="search btn btn-light" type="button">Search</button>
       			</form>
 	</nav>
-
+	<div class="header">
+		<h1 class="mt-3">Fare Guide</h1>
+	</div>
+	<hr>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col desti">
+				<form>
+					<div class="row">
+						<div class="col">
+							<label for="origin">LEAVING FROM:</label>
+							<select id="origin" class="form-control">
+								<option></option>
+							</select>
+						</div>
+						<div class="col">
+							<label for="origin">GOING TO:</label>
+							<select id="origin" class="form-control">
+								<option></option>
+							</select>
+						</div>
+					</div>
+				</form>
+				<hr>
+				<div class="row">
+					<div class="col d-grid">
+						<button type="button" class="btn btn-success btn-block">Regular Fee</button>
+					</div>
+					<div class="col d-grid">
+					<button type="button" class="btn btn-success btn-block">Discounted Fee</button>
+					</div>
+				</div>
+				<hr>
+				<div class="row mt-3">
+					<div class="col-sm-6">
+						<img src="singjo.png" class="single img-fluid">
+					</div>
+					<div class="col-sm-6 price">
+						<h3>TICKET PRICE: </h3>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<img src="transitmap.png" class="map img-fluid">
+			</div>
+		</div>
+	</div>
+	<br>
+	<hr>
+	<div class="footer">
+		<p>&copy; SY 2024-2025 | Cabatingan, Jade | Nardo, Kaitlyn | 9-Ruby</p>
+	</div>
 
 </body>
 </html>
