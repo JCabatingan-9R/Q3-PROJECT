@@ -3,8 +3,9 @@
 
 body{
   text-align: center; 
-  background-color: whitesmoke;
-  color: brown;
+  background-color: rgb(248,242,222);
+  color: rgb(96,66,40);
+  font-family: Roboto Condensed;
 }
 
 .trainsched{
@@ -22,10 +23,22 @@ nav {
 }
 
 .header {
-  padding: 30px;
-  background-color: green;
+  padding: 20px;
+  color: rgb(84,129,99);
 }
+
 .frm {
   padding: 20px;
   margin: 5%;
+}
+
+.desc {
+  background-color: rgb(133,178,117,0.5);
+  padding: 15px;
+  border-radius: 10px;
+  border: 5px double rgb(96,66,40);
+}
+
+form {
+  text-align: left;
 }
