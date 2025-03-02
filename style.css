@@ -27,6 +27,29 @@ nav {
   color: rgb(84,129,99);
 }
 
+.map {
+  width: 100%;
+}
+
+.price {
+  background-color: rgb(84,129,99);
+  padding: 15px;
+  border-radius: 10px;
+  border: 5px double rgb(96,66,40);
+  color: rgb(254,225,188);
+}
+
+.single {
+  width:100%;
+}
+
+.desti {
+  background-color: rgb(133,178,117,0.5);
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px double rgb(96,66,40);
+}
+
 .frm {
   padding: 20px;
   margin: 5%;
