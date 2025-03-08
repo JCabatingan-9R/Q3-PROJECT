@@ -10,11 +10,18 @@ body{
 
 /* HOME PAGE */
 .logo {
-  width: 20%;
+  background-image: url(snowpiercer.webp);
+  padding: 5px;
+  background-size: 100%;
+  border-radius: 10px;
 }
 
 nav {
   padding: 20px;
+}
+
+.search {
+  margin-right: 1%
 }
 
 .header {
