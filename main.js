@@ -1,3 +1,20 @@
+//NAV
+function changeSearchColor() {
+	const search = document.getElementById('search');
+	search.style.color = "white";
+	search.style.background = "green";
+}
+
+function resetSearchColor() {
+	const search = document.getElementById('search');
+	search.style.color = "green";
+	search.style.background = "white";
+}
+
+function searching() {
+	window.alert("Sorry, currently unavailable. Please search manually :)");
+}
+
 //HOME PAGE
 function changeRegColor() {
 	const reg = document.getElementById('reg');
@@ -24,19 +41,19 @@ function resetDiscColor() {
 }
 
 function regular() {
-	var origin = document.getElementById('origin').value;
-	var destination = document.getElementById('destination').value;
-	var price = destination - origin;
-	var price.value = price.value.toFixed(2);
-	document.getElementById('ticket').innerHTML = price.value;
+	var og = document.getElementById('origin').value;
+	var dest = document.getElementById('destination').value;
+	var price = Math.abs(dest-og);
+	var pri = price.toFixed(2);
+	document.getElementById('ticket').innerHTML = pri;
 }
 
 function discount() {
-	var origin = document.getElementById('origin').value;
-	var destination = document.getElementById('destination').value;
-	var price = (destination - origin) * .2;
-	var price.value = price.value.toFixed(2);
-	document.getElementById('ticket').innerHTML = price.value;
+	var og = document.getElementById('origin').value;
+	var dest = document.getElementById('destination').value;
+	var price = Math.abs((dest-og)*0.8);
+	var pri = price.toFixed(2);
+	document.getElementById('ticket').innerHTML = pri;
 }
 
 // CONTACT PAGE
