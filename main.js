@@ -1,3 +1,5 @@
+// SCRIPT BY JADE
+
 //NAV
 function changeSearchColor() {
 	const search = document.getElementById('search');
