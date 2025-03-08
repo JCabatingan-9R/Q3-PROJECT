@@ -8,12 +8,7 @@ body{
   font-family: Roboto Condensed;
 }
 
-.trainsched{
-  padding: 5%; 
-  text-align: center; 
-  justify-content: center;
-} 
-
+/* HOME PAGE */
 .logo {
   width: 20%;
 }
@@ -50,6 +45,15 @@ nav {
   border: 5px double rgb(96,66,40);
 }
 
+/* SCHEDULE PAGE */
+
+.trainsched{
+  padding: 5%; 
+  text-align: center; 
+  justify-content: center;
+} 
+
+/*CONTACT PAGE */
 .frm {
   padding: 20px;
   margin: 5%;
