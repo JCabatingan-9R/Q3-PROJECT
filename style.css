@@ -13,6 +13,10 @@ a {
   color: rgb(96,66,40);
 }
 
+a:hover {
+  color: grey;
+}
+
 /* HOME PAGE */
 .logo {
   background-image: url(snowpiercer.webp);
