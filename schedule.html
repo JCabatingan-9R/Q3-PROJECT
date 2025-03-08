@@ -21,15 +21,13 @@
 <body>
 	<nav class="navbar navbar-expand-sm bg-success">
 		<div class="container-fluid">
-			<a class="navbar-brand text-light">
-				<img src="snowpiercer.webp" class="logo rounded-circle"style="width: 40px">
+			<a class="navbar-brand text-light logo">
 				<p>KJ Guides</p>
 			</a>
 
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-     				<span class="navbar-toggler-icon"></span>
+     			<span class="navbar-toggler-icon"></span>
      			</button>
-     	   	
      	   		<div class="collapse navbar-collapse" id="mynavbar">
 				<ul class="navbar-nav nav-tabs me-auto">
 					<li class="nav-item">
@@ -46,7 +44,7 @@
 		</div>
 		<form class="d-flex search">
 	     	  	<input class="form-control me-2" type="text" placeholder="Search">
-	      		<button class="search btn btn-light" type="button">Search</button>
+	      		<button class="search btn btn-light" type="button" onclick="searching()" onmouseover="changeSearchColor()" onmouseout="resetSearchColor()" id="search">Search</button>
       		</form>
 	</nav>
 	<div class="header">
