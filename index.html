@@ -23,19 +23,17 @@
 <body>
 	<nav class="navbar navbar-expand-sm bg-success">
 		<div class="container-fluid">
-			<a class="navbar-brand text-light">
-				<img src="snowpiercer.webp" class="logo rounded-circle"style="width: 40px">
+			<a class="navbar-brand text-light logo">
 				<p>KJ Guides</p>
 			</a>
 
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-     				<span class="navbar-toggler-icon"></span>
+     			<span class="navbar-toggler-icon"></span>
      			</button>
-     	   	
      	   		<div class="collapse navbar-collapse" id="mynavbar">
 				<ul class="navbar-nav nav-tabs me-auto">
 					<li class="nav-item">
-						<a class="nav-link text-success active" href="index.html">Home</a>
+						<a class="nav-link active" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-light" href="schedule.html">Train Schedule</a>
@@ -48,7 +46,7 @@
 		</div>
 		<form class="d-flex search">
 	     	  	<input class="form-control me-2" type="text" placeholder="Search">
-	      		<button class="search btn btn-light" type="button">Search</button>
+	      		<button class="search btn btn-light" type="button" onclick="searching()" onmouseover="changeSearchColor()" onmouseout="resetSearchColor()" id="search">Search</button>
       		</form>
 	</nav>
 	<div class="header">
@@ -63,37 +61,37 @@
 						<div class="col">
 							<label for="origin">LEAVING FROM:</label>
 							<select id="origin" class="form-control">
-								<option value="28">North Avenue</option>
-								<option value="13">Quezon Avenue</option>
-								<option value="13">Kamuning</option>
-								<option value="16">Araneta Center-Cubao</option>
-								<option value="16">Santolan-Annapolis</option>
-								<option value="20">Ortigas</option>
-								<option value="20">Shaw Boulevard</option>
-								<option value="20">Boni</option>
-								<option value="24">Guadalupe</option>
-								<option value="24">Buendia</option>
-								<option value="24">Ayala</option>
-								<option value="28">Magallanes</option>
-								<option value="28">Taft Avenue</option>
-								
+								<option value="0.00">North Avenue</option>
+								<option value="13.00">Quezon Avenue</option>
+								<option value="13.00">Kamuning</option>
+								<option value="16.00">Araneta Center-Cubao</option>
+								<option value="16.00">Santolan-Annapolis</option>
+								<option value="20.00">Ortigas</option>
+								<option value="20.00">Shaw Boulevard</option>
+								<option value="20.00">Boni</option>
+								<option value="24.00">Guadalupe</option>
+								<option value="24.00">Buendia</option>
+								<option value="24.00">Ayala</option>
+								<option value="28.00">Magallanes</option>
+								<option value="28.00">Taft Avenue</option>
 							</select>
 						</div>
 						<div class="col">
-							<label for="origin">GOING TO:</label>
-							<select id="origin" class="form-control">
-								<option value="13">Quezon Avenue</option>
-								<option value="13">Kamuning</option>
-								<option value="16">Araneta Center-Cubao</option>
-								<option value="16">Santolan-Annapolis</option>
-								<option value="20">Ortigas</option>
-								<option value="20">Shaw Boulevard</option>
-								<option value="20">Boni</option>
-								<option value="24">Guadalupe</option>
-								<option value="24">Buendia</option>
-								<option value="24">Ayala</option>
-								<option value="28">Magallanes</option>
-								<option value="28">Taft Avenue</option>
+							<label for="destination">GOING TO:</label>
+							<select id="destination" class="form-control">
+								<option value="0.00">North Avenue</option>
+								<option value="13.00">Quezon Avenue</option>
+								<option value="13.00">Kamuning</option>
+								<option value="16.00">Araneta Center-Cubao</option>
+								<option value="16.00">Santolan-Annapolis</option>
+								<option value="20.00">Ortigas</option>
+								<option value="20.00">Shaw Boulevard</option>
+								<option value="20.00">Boni</option>
+								<option value="24.00">Guadalupe</option>
+								<option value="24.00">Buendia</option>
+								<option value="24.00">Ayala</option>
+								<option value="28.00">Magallanes</option>
+								<option value="28.00">Taft Avenue</option>
 							</select>
 						</div>
 					</div>
@@ -101,7 +99,7 @@
 				<hr>
 				<div class="row">
 					<div class="col d-grid">
-						<button type="button" class="btn btn-success btn-block"onclick="regular()" onmouseover="changeRegColor()" onmouseout="resetRegColor()" id="reg">Regular Fee</button>
+						<button type="button" class="btn btn-success btn-block" onclick="regular()" onmouseover="changeRegColor()" onmouseout="resetRegColor()" id="reg">Regular Fee</button>
 					</div>
 					<div class="col d-grid">
 					<button type="button" class="btn btn-success btn-block" onclick="discount()" onmouseover="changeDiscColor()" onmouseout="resetDiscColor()" id="disc">Discounted Fee</button>
@@ -123,6 +121,7 @@
 				<img src="transitmap.png" class="map img-fluid">
 			</div>
 		</div>
+		<script type="text/javascript" src="main.js"></script>
 	</div>
 	<br>
 	<hr>
