@@ -14,11 +14,6 @@ a:hover {
   color: grey;
 }
 
-footer {
-  margin-top: 10%;
-  position: fixed;
-}
-
 /* HOME PAGE */
 .logo {
   background-image: url(snowpiercer.webp);
