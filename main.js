@@ -61,10 +61,12 @@ function regular() {
 }
 
 // TO CALCULATE THE DISCOUNTED PRICE
+// MATH ABS = ABSOLUTE VALUE 
+//  TOFIXED = FOR TWO DECIMAL PLACES
 function discount() {
 	var og = document.getElementById('origin').value;
 	var dest = document.getElementById('destination').value;
-	var price = Math.abs((dest-og)*0.8);
+	var price = Math.abs((dest-og)*0.8); 
 	var pri = price.toFixed(2);
 	document.getElementById('ticket').innerHTML = pri;
 }
