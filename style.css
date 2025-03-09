@@ -14,8 +14,8 @@ a:hover {
   color: grey;
 }
 
-.footer {
-  margin-bottom: 0;
+footer {
+  margin-top: auto;
 }
 
 /* HOME PAGE */
