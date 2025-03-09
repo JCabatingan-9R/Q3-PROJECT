@@ -18,6 +18,11 @@ a:hover {
   color: grey;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
 /* HOME PAGE */
 .logo {
   background-image: url(snowpiercer.webp);
