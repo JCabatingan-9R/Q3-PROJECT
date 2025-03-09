@@ -16,6 +16,8 @@ a:hover {
 
 footer {
   margin-top: auto;
+  position: fixed;
+  bottom: 0;
 }
 
 /* HOME PAGE */
