@@ -21,6 +21,25 @@ function searching() {
 	window.alert("Sorry, currently unavailable. Please search manually :)");
 }
 
+// CHANGES SEARCH BUTTON COLOR ON HOVER
+function changeSearchColor1() {
+	const search = document.getElementById('search');
+	search.style.color = "white";
+	search.style.background = "green";
+}
+
+// RESETS SEARCH BUTTON COLOR WHEN REMOVING HOVER 
+function resetSearchColor1() {
+	const search = document.getElementById('search');
+	search.style.color = "green";
+	search.style.background = "white";
+}
+
+// ON CLICK, WILL TELL USER THE SEARCH MECHANIC DOES NOT WORK
+function searching1() {
+	window.alert("Sorry, currently unavailable. Please search manually :)");
+}
+
 //HOME PAGE
 
 // TO CHANGE REGULAR BUTTON COLOR ON HOVER 
