@@ -23,16 +23,16 @@ function searching() {
 
 // CHANGES SEARCH BUTTON COLOR ON HOVER
 function changeSearchColor1() {
-	const search = document.getElementById('search1');
-	search.style.color = "white";
-	search.style.background = "green";
+	const search1 = document.getElementById('search1');
+	search1.style.color = "white";
+	search1.style.background = "green";
 }
 
 // RESETS SEARCH BUTTON COLOR WHEN REMOVING HOVER 
 function resetSearchColor1() {
-	const search = document.getElementById('search1');
-	search.style.color = "green";
-	search.style.background = "white";
+	const search1 = document.getElementById('search1');
+	search1.style.color = "green";
+	search1.style.background = "white";
 }
 
 // ON CLICK, WILL TELL USER THE SEARCH MECHANIC DOES NOT WORK
