@@ -21,25 +21,6 @@ function searching() {
 	window.alert("Sorry, currently unavailable. Please search manually :)");
 }
 
-// CHANGES SEARCH BUTTON COLOR ON HOVER
-function changeSearchColor1() {
-	const search1 = document.getElementById('search1');
-	search1.style.color = "white";
-	search1.style.background = "green";
-}
-
-// RESETS SEARCH BUTTON COLOR WHEN REMOVING HOVER 
-function resetSearchColor1() {
-	const search1 = document.getElementById('search1');
-	search1.style.color = "green";
-	search1.style.background = "white";
-}
-
-// ON CLICK, WILL TELL USER THE SEARCH MECHANIC DOES NOT WORK
-function searching1() {
-	window.alert("Sorry, currently unavailable. Please search manually :)");
-}
-
 //HOME PAGE
 
 // TO CHANGE REGULAR BUTTON COLOR ON HOVER 
