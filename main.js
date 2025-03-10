@@ -23,14 +23,14 @@ function searching() {
 
 // CHANGES SEARCH BUTTON COLOR ON HOVER
 function changeSearchColor1() {
-	const search = document.getElementById('search');
+	const search = document.getElementById('search1');
 	search.style.color = "white";
 	search.style.background = "green";
 }
 
 // RESETS SEARCH BUTTON COLOR WHEN REMOVING HOVER 
 function resetSearchColor1() {
-	const search = document.getElementById('search');
+	const search = document.getElementById('search1');
 	search.style.color = "green";
 	search.style.background = "white";
 }
